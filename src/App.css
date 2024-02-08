@@ -34,5 +34,20 @@
   height: 20px; /* Hauteur de la barre de chargement */
   background-color: white; /* Couleur de remplissage blanc */
   width: 0; /* Défini par la prop 'progress' */
-  transition: width 0.5s ease-in-out; /* Transition douce pour l'animation */
+  transition: width 0.2s ease-in-out; /* Transition douce pour l'animation */
+}
+
+.progress-bar-outer, .progress-bar-inner {
+  box-sizing: border-box;
+}
+
+.update_msg {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 60px;
+  width: 300px;
+  font-size: 0.7rem;
 }
