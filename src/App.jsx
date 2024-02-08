@@ -4,7 +4,7 @@ import AppleLogo from './Apple_logo_white.png';
 import ProgressBar from './Components/Progressbar';
 
 function App() {
-  const [progress, setProgress] = useState(99);
+  const [progress, setProgress] = useState(0);
   const [packageNumber, setPackageNumber] = useState(37465); // Commence avec 37465
   const [messageVisible, setMessageVisible] = useState(false); // Nouvel état pour la visibilité
 
