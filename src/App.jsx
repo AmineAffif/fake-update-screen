@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <img src={AppleLogo} alt="" className="apple_logo" />
-      <ProgressBar progress={progress} message={`Mise à jour du package apple.inc.${packageNumber}xf`} messageVisible={messageVisible} />
+      <ProgressBar progress={progress} message={`Updating package apple.inc.${packageNumber}xf`} messageVisible={messageVisible} />
     </div>
   );
 }
