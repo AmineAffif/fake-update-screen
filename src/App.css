@@ -17,13 +17,17 @@
 }
 
 .progress-bar-outer {
-  margin-top: 70px; /* Espace entre la barre de progression et le logo */
   width: 250px;
-  height: 10px;
-  background-color: #000000; /* Gris clair pour le fond */
-  border: 2px solid white; /* Bordure blanche */
-  border-radius: 10px; /* Bords arrondis pour la barre externe */
-  overflow: hidden; /* Assure que la barre interne reste dans les limites de la barre externe */
+  height: 4px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 100px;
+  background-color: #555555;
+  border: 1px solid #171717;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .progress-bar-inner {
@@ -32,5 +36,3 @@
   width: 0; /* Défini par la prop 'progress' */
   transition: width 0.5s ease-in-out; /* Transition douce pour l'animation */
 }
-
-
