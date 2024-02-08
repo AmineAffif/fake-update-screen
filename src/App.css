@@ -18,14 +18,14 @@
 
 .progress-bar-outer {
   width: 250px;
-  height: 4px;
+  height: 6px;
   position: absolute;
   left: 50%;
   right: 50%;
   transform: translate(-50%, -50%);
   bottom: 100px;
-  background-color: #555555;
-  border: 1px solid #171717;
+  background-color: #262626;
+  border: 1px solid #3B3B3B;
   border-radius: 10px;
   overflow: hidden;
 }
